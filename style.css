@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+font-family: 'Outfit', sans-serif; 
+box-sizing: border-box;
+}
+section{
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+   width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px; 
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-card p:first-child{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+.about-card p:last-child{
+color: hsl(220, 15%, 55%);
+text-align: center;
+}
